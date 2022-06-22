@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "moduleResolution": "Node",
+      "outDir": "dist",
+      "forceConsistentCasingInFileNames": true,
+      "noFallthroughCasesInSwitch": true,
+      "isolatedModules": false,
+      "strict": true,
+      "noImplicitAny": true,
+      "useUnknownInCatchVariables": false,
+      "inlineSourceMap": true,
+      "lib": ["ESNext", "DOM"]
+    },
+    "ts-node": {
+        "esm": true,
+
+    },
+    "lib": ["esnext"]
+}
